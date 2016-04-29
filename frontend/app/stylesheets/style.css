@@ -1,0 +1,171 @@
+* {
+  font-family: sans-serif;
+  text-decoration: none;
+  color: inherit;
+  list-style-type: none;
+}
+
+.navigator {
+  margin-left: 10%;
+  width: 900px;
+  line-height: 24px;
+}
+
+.userInput, .projectInput {
+  width: 250px;
+}
+
+.navigatorDisplay {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.nameDisplay {
+  float: left;
+  margin-left: 10%;
+}
+
+.nameDisplay:hover {
+  cursor: pointer;
+}
+
+.linkedinDisplay {
+  display: absolute;
+  float: left;
+  margin-left: 60.5%;
+}
+
+.skillList {
+  display: flex;
+  width: 80%;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 30px;
+  margin-left: 10%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 90px;
+  font-size: 14px;
+  line-height: 20px;
+  max-width: 880px;
+  color: #373737;
+}
+
+.skillItem {
+  width: 300px;
+  padding-left: 1px;
+}
+
+.skillItem:hover {
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #F0F0F0;
+}
+
+.projectsDisplay {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 50px;
+}
+
+.projectTitle {
+  background-color: #0A0A0A;
+  margin-top: -20px;
+  font-size: 14px;
+  color: white;
+  z-index: 900;
+  opacity: 0.7;
+  padding-left: 10px;
+}
+
+.projectItem {
+  opacity: 0.85;
+}
+
+.projSkills {
+  float: bottom;
+  font-size: 14px;
+  display: none;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  opacity: 0.99;
+  line-height: 20px;
+  margin-top: -45px;
+  color: white;
+  margin-bottom: 45px;
+}
+
+.skillPoint {
+  margin-bottom: -45px;
+  /*margin-right: auto;
+  padding-right: 10px;*/
+  width: 40%;
+  background-color: #0A0A0A;
+  padding-left: 10px;
+  height: 16px;
+  padding-bottom: 2px;
+  opacity: 0.7;
+}
+
+.projectItem:hover {
+  cursor: pointer;
+}
+
+.projectItem:hover .projectImg {
+  opacity: 0.65;
+}
+
+.projectItem:hover .projSkills {
+  display: flex;
+}
+
+.footer {
+  font-size: 12px;
+  margin-left: 10%;
+}
+
+.prjPage {
+  margin-left: 10%;
+  width: 900px;
+  font-size: 14px;
+}
+
+.prjPageTitle {
+  font-weight: 600;
+}
+
+.prjPageTxt {
+  width: 700px;
+}
+
+.backButton {
+  float: right;
+  border: 2px solid lightgray;
+  width: 16px;
+  padding-left: 3px;
+  padding-right:3px;
+  padding-top:2px;
+  padding-bottom:2px;
+  text-align: center;
+  color: darkgray;
+  font-weight: 500;
+  margin-top: -38px;
+
+}
+
+.backButton:hover {
+  cursor:pointer;
+  color: gray;
+  border: 2px solid gray;
+}
+
+.prjPageLink:hover {
+  cursor: pointer;
+}
+
+.prjPageImg {
+
+}
